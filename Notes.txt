@@ -1,0 +1,50 @@
+x--Find ways to reduce dimensionality
+
+Check for algorithms that accept categorical data
+
+Figure out how to create new features
+
+x--drop Manager id and try 
+
+Do analysis of 0s dataset to find max counts of each feature
+and draw insights
+
+check if hyperparameter tuning in NN can give better results
+
+Things to try:-
+
+x1. Target encodeing
+2. WOE
+x3. Catboost
+x4. Hashing -- dont use as many categories may end up under same label
+x5. k fold encoding
+x6. Use H2O package algorithms which take categorical variables 
+without any encoding 
+7. research denoising autoencoder
+8. enquire about embedding + NN
+9. Hyperband parameter tuning
+Use SMOTE undersampling and resampling
+Check precision vs recall curve
+
+
+
+During validation make a test dataset with new catogories and
+check performance of target encoding so that we can evaluate
+the performance in a realtime senario.
+
+Think of all the challenges that the model can face in realtime
+and test it, be aware and bring it to notice
+
+Suggest various thresholds for various cases and priorities of the
+company. If their priority is mainly security and dont mind some 
+labour suggest high recall at the cost of high fpr. if the priority 
+is reducing labour then suggest mid range recall and lower fpr
+(yoden index)  
+
+chisquare eda
+
+catboost
+
+parameter tuning
+
+Smote

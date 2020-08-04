@@ -1,0 +1,25 @@
+combinations upto 3 features and select usuing brute force
+
+if a category is unique only to 0 and occures more than median count=1
+
+if a category is unique only to 1 and occures more than median count=2
+
+if a category is not unique to 1 and occures more than median count=3
+
+
+number of unique resources under a manager id 
+
+number of unique roles under a manager id
+
+number of unique resources for a role code
+
+merge rollups
+
+Try the feature elimination on various random states and eliminate 
+only the ones that are common to all the states
+
+
+
+
+
+
